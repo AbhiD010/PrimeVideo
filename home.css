@@ -1,0 +1,332 @@
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    background-color: rgb(228, 221, 191);
+    height: 1200px;
+}
+.navbar-brand{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-left: 40px;
+    /* background-color: black; */
+}
+.home,.movies,.show,.tv,.live,.subs,.lg,.srch,.join{
+    justify-content: center;
+    align-items: center;
+    padding-right: 35px;
+}
+#btn{
+    font-size: 15px;
+    border: none;
+    color: rgba(0, 0, 0, 0.73);
+    /* background-color: transparent; */
+}
+#lgbtn{
+    /* background-color: transparent; */
+    
+    border: none;
+}
+.lg_menu{
+    background-color: #15202b;
+    color: wheat;
+    width: 100px;
+}
+.lg_name{
+    color: white;
+    border-radius: 5px;
+}
+.bar{
+    height: 20px;
+    width: 3px;
+    background-color: rgba(0, 0, 0, 0.555);
+    margin-right: 40px;
+}
+.img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 35px;
+    width: 40px;
+    /* padding-right: 7px; */
+    right: 8px;
+}
+#sign{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    /* background-color: black; */
+    left: 20px;
+    border-radius: 60%;
+}
+#sign:hover .user_menu{
+    display: block;
+    opacity: 1;
+}
+#user{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.4s;
+}
+#user:hover{
+    background-color: rgb(255, 254, 254);
+    /* color: rgb(7, 7, 7); */
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.69) inset;
+}
+.user_head{
+    color: rgba(245, 222, 179, 0.677);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.user_list:hover{
+    background-color: #69696bd3;
+    box-shadow: 1px 1px 1px 1px black inset;
+    color: white;
+}
+.user_list{
+    transition-duration: 0.4s;
+    color: rgb(255, 254, 254);
+    border-radius: 5px;
+    margin: 10px;
+}
+.user_menu{
+    background-color: #15202b;
+    height: 280px;
+    width: 380px;
+    right: -100px;
+}
+#joinp{
+    height: 42px;
+    width: 105px;
+    font-size: 18px;
+}
+.catag{
+    transition: transform .2s;
+    text-decoration: none;
+    color: black;
+}
+.catag:hover{
+    transform: scale(1.3);
+}
+
+/* #navbarScroll{
+    background-color: black;
+} */
+
+.imgs{
+    height: 450px;
+    width: 800px;
+}
+.welcome{
+    height: 400px;
+    width: 668px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    /* position: absolute; */
+    padding-left: 30px;
+    padding-top: 70px;
+}
+#carouselExampleCaptions{
+    position: relative;
+    bottom: 400px;
+    left: 669px;
+    height: 300px;
+    width: 850px;
+}
+.h1{
+    position: relative;
+    padding: 10px;
+    font-size: 49px;
+    text-align: left;
+
+}
+.p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.749);
+}
+#signintop{
+    margin-top: 30px;
+    padding: 15px;
+}
+.rent,.subscription{
+    height: 400px;
+    width: 668px;
+    /* background-color: blueviolet; */
+    position: relative;
+    padding-left: 30px;
+    /* padding-top: -90px; */
+    bottom: 110px;
+}
+.marvel{
+    margin-top: -120px;
+}
+#carouselExampleFade{
+    position: relative;
+    bottom: 400px;
+    left: 669px;
+    height: 300px;
+    width: 850px;
+}
+.box{
+    position: relative;
+    height: 600px;
+    width: 850px;
+    /* background-color: black; */
+    left: 669px;
+    bottom: 550px;
+    border: none;
+}
+#disc,#bbcplayer,#manoramax,#hoichoi,#chaupal,#animetimes,#mgm,#sony{
+    	/* background-color: antiquewhite; */
+        /* padding: 60px; */
+        margin: 20px;
+        height: 180px;
+    width: 240px;
+}
+#lionplay{
+    margin:20px 0px ;
+    border-radius: 5%;
+    height: 160px;
+    width: 220px;
+    transition: transform .2s;
+}
+#disc{
+    
+    position: relative;
+    padding: 10px;
+    margin-left: 255px;
+    margin-top: -200px;
+    border-radius: 10%;
+    transition: transform .2s;
+}
+
+
+
+#bbcplayer{
+    /* height: 220px; */
+    /* width: 280px; */
+    position: relative;
+    padding: 10px;
+    margin-left: 520px;
+    margin-top: -250px;
+    border-radius: 10%;
+    transition: transform .2s;
+}
+#manoramax{
+    /* height: 220px; */
+    /* width: 280px; */
+    position: relative;
+    padding: 10px;
+    margin-left: -11px;
+    margin-top: -40px;
+    border-radius: 10%;
+    transition: transform .2s;
+}
+#hoichoi{
+        /* height: 220px; */
+        /* width: 280px; */
+        position: relative;
+        padding: 10px;
+        margin-left: 255px;
+        margin-top: -230px;
+        border-radius: 10%;
+        transition: transform .2s;
+}
+#chaupal{
+    /* height: 220px; */
+    /* width: 280px; */
+    position: relative;
+    padding: 10px;
+    margin-left: 520px;
+    margin-top: -272px;
+    border-radius: 10%;
+    transition: transform .2s;
+}
+#animetimes{
+    /* height: 220px; */
+    /* width: 280px; */
+    position: relative;
+    padding: 10px;
+    margin-left: -11px;
+    margin-top: -50px;
+    border-radius: 10%;
+    transition: transform .2s;
+}
+#sony{
+    /* height: 220px; */
+        /* width: 280px; */
+        position: relative;
+        padding: 10px;
+        margin-left: 255px;
+        margin-top: -230px;
+        border-radius: 10%;
+        border: none;
+        transition: transform .2s;
+}
+#mgm{
+    /* height: 220px; */
+    /* width: 280px; */
+    position: relative;
+    padding: 10px;
+    margin-left: 520px;
+    margin-top: -272px;
+    border-radius: 10%;
+    cursor: pointer;
+    border: none;
+    transition: transform .2s;
+    /* background-color: rgb(240, 231, 231); */
+}
+
+#sony:hover,#mgm:hover,#animetimes:hover,#chaupal:hover,#hoichoi:hover,#manoramax:hover,#bbcplayer:hover,#lionplay:hover,#disc:hover{
+    transform: scale(1.1);
+}
+/* #mgm:hover{
+    box-shadow: 1px 1px 1px rgb(202, 14, 14);
+    transition: 1s;
+    border: none;
+} */
+.footer{
+    position: relative;
+    height: 250px;
+    width: 1519px;
+    background-color: #222222;
+    bottom: 400px;
+    color: rgba(255, 255, 255, 0.449);
+}
+.logo{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    padding-left: 45%;
+    height: 130px;   
+}
+.terms{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    right: 310px;
+    top: 50px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer .terms{
+    margin-right: 20px;
+}
+.copyr{
+    padding: 10px;
+    padding-left: 600px;
+}

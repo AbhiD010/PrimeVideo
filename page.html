@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+        <div class="container-fluid" id="prime">
+          <a class="navbar-brand" href="#"><b>prime video</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            
+                <div class="home">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="btn"><b>Home</b></button>
+                </div>
+                <div class="movies">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="btn"><b>Movies</b></button>
+                </div>
+                <div class="show">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="btn"><b>TV shows</b></button>
+                </div>  
+                <div class="live">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="btn"><b>Live TV</b></button>
+                </div> 
+                <div class="bar"></div>
+                <div class="subs">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="btn" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid" viewBox="0 0 16 16">
+                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5z"/>
+                      </svg> <b>Subscription</b></button>
+                </div>
+          
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <div class="srch">
+                <button class="btn btn-outline-success" type="submit" id="src">Search</button>
+               </div>
+              
+                 </form>
+                 <div class="dropdown">
+                 <div class="lg">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="lgbtn">
+                    EN
+                   </button>
+                   <ul class="dropdown-menu lg_menu">
+                    <li><button class="dropdown-item lg_name" type="button">English</button></li>
+                    <li><button class="dropdown-item lg_name" type="button">Hindi</button></li>
+                    <!-- <li><button class="dropdown-item" type="button"></button></li> -->
+                   </ul>
+                 </div>
+                
+                
+              </div>
+              <a href="#" class="catag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
+                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+              </svg>
+            </a>
+              <div class="dropdown" id="sign">
+                <!-- <div class="sign"> -->
+                  <button class="btn btn-secondary" type="button" aria-expanded="false" id="user">
+                    <img src="./gray-user-profile-icon-png-fP8Q1P.png" alt="" class="img">
+                  </button>
+                  <div class="dropdown-menu user_menu" aria-labelledby="dropdownMenuButton">
+                    <table>
+                      <tr>
+                        <th class="user_head">YOUR ACCOUNT</th>
+                        <th class="user_head">PROFILES</th>
+                      </tr> 
+                      <tr>
+                        <td><button class="dropdown-item user_list" type="button">Help</button></td>
+                        <td><button class="dropdown-item user_list" type="button">Kids</button></td>
+                      </tr>
+                      <tr>
+                        <td><button class="dropdown-item user_list" type="button">Watch Anywhere</button></td>
+                        <td><button class="dropdown-item user_list" type="button">Add New</button></td>
+                      </tr>
+                      <tr>
+                        <td><button class="dropdown-item user_list" type="button">Account & Settings</button></td>
+                        <td><button class="dropdown-item user_list" type="button">Manage Profiles</button></td>
+                      </tr>
+                      <tr>
+                        <td><button class="dropdown-item user_list" type="button">Sign out</button></td>
+                        <td><button class="dropdown-item user_list" type="button">Learn More</button></td>
+                      </tr>
+                    </table>
+                  </div>
+
+                <!-- </div> -->
+              </div>     
+          </div>
+          <div class="join">
+            <button type="button" class="btn btn-primary"
+            style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;" id="joinp">
+            Join Prime
+            </button> 
+          </div>
+        </div>
+      </nav>
+
+      <div class="welcome">
+        <h1 class="h1"><b>Welcome to Prime Video</b></h1>
+        <p class="p"> <b>Join Prime to watch the latest movies, TV shows and award-winning Amazon Originals</b></p>
+        <a href="./Rent Now/signin.html">
+          <button type="button" class="btn btn-primary btn-lg" id="signintop">Sign in To Join Prime</button>
+        </a>
+      </div>
+      
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/stree-2-free-ott-release-date-1727962758271.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5> -->
+              <!-- <p>Some representative placeholder content for the first slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+              <!-- <p>Some representative placeholder content for the second slide.</p> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/your-fault.jpg " class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5> -->
+              <!-- <p>Some representative placeholder content for the third slide.</p> -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="rent">
+        <h1 class="h1"><b>Movie rentals on Prime Video</b></h1>
+        <p class="p"> <b>Early Access to new movies, before digital subscription</b></p>
+        <a href="./Rent Now/index.html">
+          <button type="button" class="btn btn-primary btn-lg" id="signintop">Rent now</button>
+        </a> 
+      </div>
+
+      <div class="marvel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/transformers-one-web-1200x675.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/scale.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/never-let-me-go.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="subscription">
+        <h1 class="h1"><b>Your favorite subscriptions all in one place</b></h1>
+        <p class="p"> <b>With Prime Video Channels, find shows and movies from your favorite channels all in one place. Enjoy with an add-on subscription to Channels of your choice</b></p>
+      </div>
+      <!-- <div class="play" >
+        <button class="lionplay">
+          <img src="./img/LionsgatePlay-426X2946_V1._AC_SX400_QL80_FP_.jpg" class="rounded float-start" alt="..." >
+        </button>
+      </div> -->
+      
+      <div class="box">  
+        <div class="play">
+          <a href="#" ><img src="./img/LionsgatePlay-426X2946_V1._AC_SX400_QL80_FP_.jpg" alt="..." id="lionplay"></a>
+        </div>
+        <div class="discovery">
+          <a href="#"><img src="./img/426x294_Discovery._AC_SX400_QL80_FP_.jpg" alt="..." id="disc"></a>
+        </div>
+        <div class="bbc">
+          <a href="#"><img src="./img/426x294_BBC_PLAYER._AC_SX400_QL80_FP_.jpg"  alt="..." id="bbcplayer"></a>
+        </div>
+        <div class="manora">
+          <a href="#"><img src="./img/426x294_MANORAMAMAX._AC_SX400_QL80_FP_.jpg"  alt="..." id="manoramax"></a>
+        </div>
+        <div class="hoichoi">
+          <a href="#"><img src="./img/hoichoi-426X2946_V1._AC_SX400_QL80_FP_.jpg"  alt="..." id="hoichoi"></a>
+        </div>
+        <div class="chaupal">
+          <a href="#"><img src="./img/426x294_Chaupal._AC_SX400_QL80_FP_.jpg"  alt="..." id="chaupal"></a>
+        </div>
+        <div class="anime">
+          <a href="#" class="animetime"><img src="./img/426x294_Anime._AC_SX400_QL80_FP_.jpg"  alt="..." id="animetimes"></a>
+        </div>
+        <a href="#"><img src="./img/426x294._AC_SX400_QL80_FP_.jpg" alt="" id="sony"></a>
+        <img src="./img/426x294_MGMPLUS._AC_SX400_QL80_FP_.jpg" alt="" id="mgm">
+
+      </div>
+      
+     <div class="footer">
+      <img src="./img/web_footer_logo._CB462908456_.png" alt="" class="logo">
+      <a href="#" class="terms">Terms & Privacy Notice</a>
+      <a href="#" class="terms">Send us feedback</a>
+      <a href="#" class="terms">Help</a>
+      <p class="copyr">&copy; 1966-2024, Amazon.com, Inc. or its affiliates</p>
+
+     </div>
+
+</body>
+</html>
